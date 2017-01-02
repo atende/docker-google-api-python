@@ -4,7 +4,9 @@ RUN apk add --update --no-cache \
     py-google-api-python-client \
     py-openssl \
     py-oauth2client \
-    py-uritemplate
+    py-uritemplate \
+    libffi-dev \
+    py-cryptography
 
 # RUN pip install --upgrade google-api-python-client==1.4.2 \
 #     uritemplate.py oauth2client==1.5.2
