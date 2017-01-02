@@ -10,4 +10,4 @@ RUN apk add --update --no-cache \
     py-enum34 \
     py-cffi
 
-RUN pip install --upgrade oauth2client==1.5.2
+RUN pip install --upgrade oauth2client==2.0.2
