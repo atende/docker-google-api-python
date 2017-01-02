@@ -8,6 +8,7 @@ RUN apk add --update --no-cache \
     libffi-dev \
     py-cryptography \
     py-enum34 \
-    py-cffi
+    py-cffi \
+    py-lockfile
 
 RUN pip install --upgrade oauth2client==2.0.2
