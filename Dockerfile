@@ -9,7 +9,9 @@ RUN apk add --update --no-cache \
     py-cryptography \
     py-enum34 \
     py-cffi \
-    file
+    file \
+    py-magic \
+    libmagic
 
 # RUN pip install --upgrade google-api-python-client==1.4.2 \
 #     uritemplate.py oauth2client==1.5.2
