@@ -8,7 +8,8 @@ RUN apk add --update --no-cache \
     libffi-dev \
     py-cryptography \
     py-enum34 \
-    py-cffi
+    py-cffi \
+    file
 
 # RUN pip install --upgrade google-api-python-client==1.4.2 \
 #     uritemplate.py oauth2client==1.5.2
