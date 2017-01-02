@@ -10,7 +10,6 @@ RUN apk add --update --no-cache \
     py-enum34 \
     py-cffi \
     file \
-    py-magic \
     libmagic
 
 # RUN pip install --upgrade google-api-python-client==1.4.2 \
