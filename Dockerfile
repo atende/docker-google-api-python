@@ -1,11 +1,13 @@
 FROM alpine
 RUN apk add --update --no-cache \
     python \
+    py-pip \
     py-google-api-python-client \
     py-openssl \
-    py-oauth2client \
     py-uritemplate \
     libffi-dev \
     py-cryptography \
     py-enum34 \
     py-cffi
+
+RUN pip install --upgrade oauth2client==1.5.2
