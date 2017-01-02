@@ -11,7 +11,8 @@ RUN apk add --update --no-cache \
     py-enum34 \
     py-cffi \
     file \
-    libmagic
+    libmagic \
+    py-httplib2
 
 RUN pip install common-mimetypes
 
